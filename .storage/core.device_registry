@@ -1,0 +1,335 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.device_registry",
+  "data": {
+    "devices": [
+      {
+        "area_id": null,
+        "config_entries": [
+          "f11cc7241c8497eec59b78e5d87b673d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "e68b9e338c26c9ddf42b1923b6952d1b",
+        "identifiers": [
+          [
+            "hassio",
+            "core"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Core",
+        "name_by_user": null,
+        "name": "Home Assistant Core",
+        "serial_number": null,
+        "sw_version": "2024.2.5",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f11cc7241c8497eec59b78e5d87b673d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "36e106773caba8f62af8556311ca9053",
+        "identifiers": [
+          [
+            "hassio",
+            "supervisor"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Supervisor",
+        "name_by_user": null,
+        "name": "Home Assistant Supervisor",
+        "serial_number": null,
+        "sw_version": "2024.02.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f11cc7241c8497eec59b78e5d87b673d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "6899857b90f3b56aaaefc3d69c28a678",
+        "identifiers": [
+          [
+            "hassio",
+            "host"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Host",
+        "name_by_user": null,
+        "name": "Home Assistant Host",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f11cc7241c8497eec59b78e5d87b673d"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "7882f3b7e2ecc1d5265a4475d7fb9afd",
+        "identifiers": [
+          [
+            "hassio",
+            "OS"
+          ]
+        ],
+        "manufacturer": "Home Assistant",
+        "model": "Home Assistant Operating System",
+        "name_by_user": null,
+        "name": "Home Assistant Operating System",
+        "serial_number": null,
+        "sw_version": "12.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "521c55852c89625c2eec9715d0cb8752"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "4f0c7b40c0df5cc3f08f0d15d348a35b",
+        "identifiers": [
+          [
+            "sun",
+            "521c55852c89625c2eec9715d0cb8752"
+          ]
+        ],
+        "manufacturer": null,
+        "model": null,
+        "name_by_user": null,
+        "name": "Sun",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "a40156caea60ef6d79d8e393bdca0e66"
+        ],
+        "configuration_url": null,
+        "connections": [
+          [
+            "bluetooth",
+            "D8:3A:DD:DF:54:26"
+          ]
+        ],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": "usb:v1D6Bp0246d0548",
+        "id": "7f23ed74ef924180da94adfe1d0c284e",
+        "identifiers": [],
+        "manufacturer": null,
+        "model": "Unknown",
+        "name_by_user": null,
+        "name": "hci0 (D8:3A:DD:DF:54:26)",
+        "serial_number": null,
+        "sw_version": "homeassistant",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "312402fd9c81c303b18c4069974c4996"
+        ],
+        "configuration_url": null,
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": null,
+        "hw_version": null,
+        "id": "dccd306748bc43c67327c0f1f4f6d077",
+        "identifiers": [
+          [
+            "cast",
+            "fee31482f64bc2ed32a5cd3f81715321"
+          ]
+        ],
+        "manufacturer": "Unknown manufacturer",
+        "model": "Onkyo TX-RZ810",
+        "name_by_user": null,
+        "name": "Ampli_Salon",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "30555e551b566af9a5bf0121b745baef"
+        ],
+        "configuration_url": "https://www.met.no/en",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "a2fbce5699a035bdd4ee60a8e1e9076b",
+        "identifiers": [
+          [
+            "met",
+            "30555e551b566af9a5bf0121b745baef"
+          ]
+        ],
+        "manufacturer": "Met.no",
+        "model": "Forecast",
+        "name_by_user": null,
+        "name": "Forecast",
+        "serial_number": null,
+        "sw_version": null,
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f11cc7241c8497eec59b78e5d87b673d"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_samba",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "e95676321da923e7e8a7dbbd9b645439",
+        "identifiers": [
+          [
+            "hassio",
+            "core_samba"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Samba share",
+        "serial_number": null,
+        "sw_version": "12.3.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f11cc7241c8497eec59b78e5d87b673d"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_spotify",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "05dd2034254721d5b00fb27d2d130d50",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_spotify"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Spotify Connect",
+        "serial_number": null,
+        "sw_version": "0.13.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f11cc7241c8497eec59b78e5d87b673d"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_git_pull",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "27f77b6fe9ea8722dd475b87f4a83dc6",
+        "identifiers": [
+          [
+            "hassio",
+            "core_git_pull"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Git pull",
+        "serial_number": null,
+        "sw_version": "7.13.1",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f11cc7241c8497eec59b78e5d87b673d"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/a0d7b954_vscode",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "f6bc978993cbf89e1cb59fc75b73e654",
+        "identifiers": [
+          [
+            "hassio",
+            "a0d7b954_vscode"
+          ]
+        ],
+        "manufacturer": "Home Assistant Community Add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "Studio Code Server",
+        "serial_number": null,
+        "sw_version": "5.15.0",
+        "via_device_id": null
+      },
+      {
+        "area_id": null,
+        "config_entries": [
+          "f11cc7241c8497eec59b78e5d87b673d"
+        ],
+        "configuration_url": "homeassistant://hassio/addon/core_configurator",
+        "connections": [],
+        "disabled_by": null,
+        "entry_type": "service",
+        "hw_version": null,
+        "id": "ec476f1153ce805734c37c54bf17edc6",
+        "identifiers": [
+          [
+            "hassio",
+            "core_configurator"
+          ]
+        ],
+        "manufacturer": "Official add-ons",
+        "model": "Home Assistant Add-on",
+        "name_by_user": null,
+        "name": "File editor",
+        "serial_number": null,
+        "sw_version": "5.8.0",
+        "via_device_id": null
+      }
+    ],
+    "deleted_devices": []
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "version": 1,
+  "minor_version": 1,
+  "key": "auth",
+  "data": {
+    "users": [
+      {
+        "id": "65bba6fc52244efbaec33ce793b9a29d",
+        "group_ids": [
+          "system-read-only"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Content",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "ff2298ca6c9d41ba8024b31f1bca375a",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Supervisor",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "e0954e5792444932b891c2bb3ac8c969",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": false,
+        "is_active": true,
+        "name": "Home Assistant Cast",
+        "system_generated": true,
+        "local_only": false
+      },
+      {
+        "id": "6957d22be43348a2ba47a197fa6cd5d3",
+        "group_ids": [
+          "system-admin"
+        ],
+        "is_owner": true,
+        "is_active": true,
+        "name": "Mathias",
+        "system_generated": false,
+        "local_only": false
+      }
+    ],
+    "groups": [
+      {
+        "id": "system-admin",
+        "name": "Administrators"
+      },
+      {
+        "id": "system-users",
+        "name": "Users"
+      },
+      {
+        "id": "system-read-only",
+        "name": "Read Only"
+      }
+    ],
+    "credentials": [
+      {
+        "id": "7896ac84dd054ca4b2aaa0af1b1fb357",
+        "user_id": "6957d22be43348a2ba47a197fa6cd5d3",
+        "auth_provider_type": "homeassistant",
+        "auth_provider_id": null,
+        "data": {
+          "username": "mathias"
+        }
+      }
+    ],
+    "refresh_tokens": [
+      {
+        "id": "ac0465b7d91f488d9aa5005da487d9db",
+        "user_id": "65bba6fc52244efbaec33ce793b9a29d",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2024-03-06T19:23:26.625186+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "422f4419ddd0f6409fef0b7aac5d252674ac784843b9a507128033c3881140c05f35f845ed9ce33ae6decbcc8f8d30e2281f54eb07b9650ac2bae4f7365f7446",
+        "jwt_key": "e631cbfd242b2c48d955df25387bc124da7b2a1474e220098a0f9bf7162374734509e38e26fa8d2bb90040615089da2e9aa74e109936c7802908eb4e937e474a",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "expire_at": null,
+        "credential_id": null,
+        "version": "2024.2.5"
+      },
+      {
+        "id": "6014a36d49c34621a7fb69f18ab1a298",
+        "user_id": "ff2298ca6c9d41ba8024b31f1bca375a",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2024-03-06T19:23:27.948645+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "2c84b6bfa8970a7acad5b4222e1fe53c7ab10f735fd510cbf660cc36e17d486bd3a6a86c658e215414ac456308a09f376de4278ff43e4e7b9bf880eedbe099ec",
+        "jwt_key": "a9d172bbb86094ddc0cbd260d764078e4a32876efddd18fb7a932481a5cede141c955d1e2806105cd34f26f2ebdef5344239a6b612cb65cb007ca3fb799e74f5",
+        "last_used_at": "2024-03-06T22:27:01.376267+00:00",
+        "last_used_ip": "172.30.32.2",
+        "expire_at": null,
+        "credential_id": null,
+        "version": "2024.2.5"
+      },
+      {
+        "id": "e9ea69e3d6c84876b628716167cec028",
+        "user_id": "e0954e5792444932b891c2bb3ac8c969",
+        "client_id": null,
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "system",
+        "created_at": "2024-03-06T19:23:30.945746+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "a02013da85b20e18e2d9c73d6de7dfaf475439c4435713f2973abf287b3ed9324362ce23c7bb759223e466824af80843f79975b95caa437b6631543383fdff71",
+        "jwt_key": "10b813a465cc0c5cb06db32d1d7b3b8a6eb646237b822a27566e8b9c9feb2380382194f1ed932545089913029b765848aa97ff38b148a7f0f4b30e4091796d60",
+        "last_used_at": null,
+        "last_used_ip": null,
+        "expire_at": null,
+        "credential_id": null,
+        "version": "2024.2.5"
+      },
+      {
+        "id": "20730049cc75487783ba3b4a4fdd9164",
+        "user_id": "6957d22be43348a2ba47a197fa6cd5d3",
+        "client_id": "http://homeassistant.local:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-03-06T19:26:18.635603+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "d9177dd4bab1d1b94103eb2ab6128dc1fbd0cc9f9e72d9a6c5c2d8aa9a8baed5cb1c394ca67780e50102510dac678e9d3c5705ffdc3bcd1c57bebeeb8d369051",
+        "jwt_key": "47daebe66442fd44b22b1448d16fffd2672baad71508132bbfba7f6588d2c491e9e5371a43943e344a4baf74e9bc89934703c2fed17baf46b4db4b023a6618ac",
+        "last_used_at": "2024-03-06T19:26:18.635737+00:00",
+        "last_used_ip": "10.69.0.11",
+        "expire_at": 1717529178.635737,
+        "credential_id": "7896ac84dd054ca4b2aaa0af1b1fb357",
+        "version": "2024.2.5"
+      },
+      {
+        "id": "2fde22a016ec48eaa9257164b18560a0",
+        "user_id": "6957d22be43348a2ba47a197fa6cd5d3",
+        "client_id": "http://homeassistant.local:8123/",
+        "client_name": null,
+        "client_icon": null,
+        "token_type": "normal",
+        "created_at": "2024-03-06T19:26:48.968715+00:00",
+        "access_token_expiration": 1800.0,
+        "token": "2f37771da6e3bf5248483bae0516a88f11ca715e4544f61c7ec5f088a0d1186ace19e5205d6d2ea4012d54509a4f94b9b45d3c4a38e574acc169979b72133c08",
+        "jwt_key": "6a74139c5182510968683064e1bc019ec70748ab3dfacd9ed57938dc2ec7077e1e70311c11c1fbf33d1dbe7b984e89ca599dd5ad794e5590343f7831adb5de01",
+        "last_used_at": "2024-03-06T22:21:46.817322+00:00",
+        "last_used_ip": "10.69.0.11",
+        "expire_at": 1717539706.817322,
+        "credential_id": "7896ac84dd054ca4b2aaa0af1b1fb357",
+        "version": "2024.2.5"
+      }
+    ]
+  }
+}

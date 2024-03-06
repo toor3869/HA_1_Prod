@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "minor_version": 4,
+  "key": "core.area_registry",
+  "data": {
+    "areas": [
+      {
+        "aliases": [],
+        "icon": null,
+        "id": "salon",
+        "name": "Salon",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "icon": null,
+        "id": "cuisine",
+        "name": "Cuisine",
+        "picture": null
+      },
+      {
+        "aliases": [],
+        "icon": null,
+        "id": "chambre",
+        "name": "Chambre",
+        "picture": null
+      }
+    ]
+  }
+}
